@@ -8,7 +8,7 @@ public class Rey extends Pieza{
 
 	
 	
-	int movimientos = 0;
+	private int movimientos = 0;
 	@Override
 	public int CantidadDeMovimientos() {
 		if ((this.fila == 1 || this.fila==8) && (this.columna == 8 || this.columna == 1)){

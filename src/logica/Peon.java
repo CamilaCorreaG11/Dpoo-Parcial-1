@@ -7,7 +7,7 @@ public class Peon extends Pieza {
 	}
 
 	
-	int movimientos = 0;
+	private int movimientos = 0;
 	@Override
 	public int CantidadDeMovimientos() {
 		
